@@ -1342,4 +1342,16 @@ export const FEATURE_FLAG_DEFINITIONS: FeatureFlagDefinition[] = [
     requiresRestart: false,
     warningLevel: "caution",
   },
+  {
+    key: "ACCOUNT_MANAGER_V2_ENABLED",
+    label: "Account Manager 2.0",
+    description:
+      "Enable the new Account Manager 2.0 UI with compact account cards, details drawer, proxy management, diagnostics, quotas, rate limit protection, routing visualization, and history. Off by default: the legacy ConnectionsListPanel is used.",
+    descriptionI18nKey: "featureFlagAccountManagerV2EnabledDescription",
+    category: "runtime",
+    defaultValue: "false",
+    type: "boolean",
+    requiresRestart: false,
+    warningLevel: "info",
+  },
 ];
